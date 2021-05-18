@@ -10,7 +10,7 @@ ubuntu1804cis_section4: true
 ubuntu1804cis_section5: true
 ubuntu1804cis_section6: true
 
-ubuntu1804cis_selinux_disable: false
+ubuntu1804cis_selinux_disable: true
 ubuntu1804cis_auditd_disable: false
 
 # Ignore remount errors if you're building an image or are going to reboot anyway
@@ -335,7 +335,7 @@ ubuntu1804cis_is_router: false
 ubuntu1804cis_ipv6_required: true
 
 # AIDE
-ubuntu1804cis_config_aide: true
+ubuntu1804cis_config_aide: false
 # AIDE cron settings
 ubuntu1804cis_aide_cron:
   cron_user: root
@@ -351,7 +351,7 @@ ubuntu1804cis_aide_cron:
 ubuntu1804cis_gui: false
 
 # Set to 'true' if X Windows is needed in your environment
-ubuntu1804cis_xwindows_required: false
+ubuntu1804cis_xwindows_required: true
 
 ubuntu1804cis_openldap_clients_required: false
 ubuntu1804cis_telnet_required: false
